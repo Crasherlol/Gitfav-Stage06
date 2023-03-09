@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: var(--bg-color);
+    
+
+
+}
+
+:root {
+    font-size: 62.5%;
+    --bg-color: black;
+    --inputP-color: #7C7C8A;
+    --inputBG-color: #06181C;
+    --buttonBG-color: #065E7C;
+    --buttonP-color: #FFFFFF;
+    --tableBG-color: #092D38;
+    --tableP-color: #E1E1E6;
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    display: flex;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--buttonP-color);
+    text-transform: uppercase;
+    gap: 8px;
+    padding: 12px 32px;
+    background-color: var(--buttonBG-color);
+    width: 15rem;
+    height: 5rem;
+}
+
+input{
+    background-color: var(--inputBG-color);
+    color: var(--inputP-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.6rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    width: 46.2rem;
+    height: 4.8rem;
+}
+.gitFavoriteLayout{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0.8rem;
+    margin-right: 10rem;
+    
+    
+}
+.headerNav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 13rem;
+}
+.logo {
+    align-self: center;
+    margin-left: 28rem;
+}
+
+table{
+display: flex;
+flex-direction: column;
+position: absolute;
+top: 25.0rem;
+left: 47rem;
+border-collapse: collapse;
+
+
+border: 1px solid #4A808C;
+border-radius: 12px;
+
+
+font-weight: bold;
+font-size: 2.0rem;
+line-height: 160%;
+
+color: var(--tableP-color);
+padding: 0px;
+width: 112.0rem;
+
+
+}
+
+table th:first-child{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 24px 16px 40px;
+gap: 12px;
+width: 504px;
+height: 64px;
+}
+
+table th:nth-child(2){
+padding: 16px 24px 16px 40px;
+gap: 12px;
+width: 218px;
+height: 64px;
+
+}
+table th:nth-child(3){
+    padding: 16px 24px 16px 40px;
+    gap: 12px;
+    width: 218px;
+    height: 64px;
+    
+    }
+table th:nth-child(4){
+        padding: 16px 24px 16px 40px;
+        gap: 12px;
+        width: 218px;
+        height: 64px;
+        
+}
+td.user {
+    display: flex;
+    padding: 1.6rem 2.4rem 1.6rem 4.0rem;
+    gap: 12px;
+    width: 50.4rem;
+    height: 10.4rem;
+    gap: 1rem;
+}
+
+
+td.user img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.user span{
+    font-weight: 400;
+}
+
+td.repositories{
+    text-align: center;
+    width: 21.9rem;
+    height: 10.4rem;
+}
+
+td.followers{
+    text-align: center;
+    width: 21.9rem;
+    height: 10.4rem;
+}
+
+td.ação{
+    text-align: center;
+    width: 17.8rem;
+    height: 10.4rem;
+    color: #F75A68;
+}
+        
+.removeProfile:hover{
+    color: #f71d2f;
+    cursor: pointer;
+}
+
+tbody tr:nth-child(even){
+    background-color: #06181C;
+    border: 1px solid #4A808C;
+    
+    
+}
+tbody tr:nth-child(odd){
+    background-color: #02090a;
+    border: 1px solid #4A808C;
+    
+}
+
+tHead{
+    background-color: var(--tableBG-color);
+    border-radius: 12px 12px 0px 0px;
+}
+
+.user a {
+    text-decoration: none;
+    color: #7f7f81;
+}
+.user a:hover {
+    color: rgb(211, 208, 208);
+}
+.user span{
+    position: absolute;
+    left: 0;
+    margin-left: 10rem;
+
+}
+
+
+
+
